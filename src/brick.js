@@ -1,12 +1,8 @@
 import { detectCollision } from './collisionDetection.js';
 
-
 export default class Brick {
   constructor(game, position) {
     this.image = document.getElementById('brick');
-
-    this.gameWidth = game.gameWidth;
-    this.gameHeight = game.gameHeight;
 
     this.game = game;
 
