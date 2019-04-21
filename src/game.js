@@ -70,7 +70,7 @@ export default class Game {
   }
 
   draw(context) {
-    [...this.gameObjects, ...this.bricks]forEach(object => object.draw(context));
+    [...this.gameObjects, ...this.bricks].forEach(object => object.draw(context));
 
     if(this.gamestate == GAMESTATE.PAUSED) {
       context.rect(0,0,this.gameWidth, this.gameHeight);
