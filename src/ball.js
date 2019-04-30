@@ -1,6 +1,6 @@
 import { detectCollision } from './collisionDetection.js';
 
-export default Ball {
+export default class Ball {
   constructor(game) {
     this.image = document.getElementById('ball');
     this.gameWidth = game.gameWidth;
